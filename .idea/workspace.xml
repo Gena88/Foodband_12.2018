@@ -177,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/foodband/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+            <state relative-caret-position="40">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -676,7 +676,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543934913526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543935270896" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -799,12 +799,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddFoodOrders - 2018.12.04 at 17h 29m 37s.xml">
-      <configuration name="AddFoodOrders" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.04 at 17h 30m 02s.xml">
-      <configuration name="AddFoodOrders" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddFoodOrders - 2018.12.04 at 17h 31m 33s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
@@ -827,6 +821,12 @@
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
     <history-entry file="AddFoodOrders - 2018.12.04 at 17h 48m 18s.xml">
+      <configuration name="AddFoodOrders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddFoodOrders - 2018.12.04 at 17h 48m 47s.xml">
+      <configuration name="AddFoodOrders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddFoodOrders - 2018.12.04 at 17h 52m 19s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -898,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/foodband/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+        <state relative-caret-position="40">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
