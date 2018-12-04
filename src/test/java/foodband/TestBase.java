@@ -45,19 +45,12 @@ public class TestBase {
         wd.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/form/button")).click();
     }
 
-    protected void outSesion() {
-        wd.findElement(By.linkText("Выйти")).click();
-    }
 
     protected void initOrdersSearch() {
         wd.findElement(By.xpath("//div[@class='text-container']/form/input[8]")).click();
     }
 
-    protected void fillOrdersSearch(ParametrOrderSearch parametrOrderSearch) {
-        wd.findElement(By.id("ord_num")).click();
-        wd.findElement(By.id("ord_num")).clear();
-        wd.findElement(By.id("ord_num")).sendKeys(parametrOrderSearch.getOrderNumber());
-    }
+
 
     protected void gotoNewOrder() {
 
@@ -97,11 +90,6 @@ public class TestBase {
         wd.quit();
     }
 
-    protected void initViewInvoices() {
-        wd.findElement(By.name("sub")).click();
-    }
 
-    protected void gotoViewInvoices() {
-        wd.findElement(By.linkText("Просмотр накладных")).click();
-    }
 }
+
