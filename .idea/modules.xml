@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project-foodband.iml" filepath="$PROJECT_DIR$/.idea/modules/Project-foodband.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Foodband_12.2018.iml" filepath="$PROJECT_DIR$/.idea/modules/Foodband_12.2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Foodband_12.2018_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Foodband_12.2018_main.iml" group="Foodband_12.2018" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Foodband_12.2018_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Foodband_12.2018_test.iml" group="Foodband_12.2018" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodband.iml" filepath="$PROJECT_DIR$/.idea/modules/foodband.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodband_main.iml" filepath="$PROJECT_DIR$/.idea/modules/foodband_main.iml" group="foodband" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodband_test.iml" filepath="$PROJECT_DIR$/.idea/modules/foodband_test.iml" group="foodband" />
       <module fileurl="file://$PROJECT_DIR$/web-pegas-test.iml" filepath="$PROJECT_DIR$/web-pegas-test.iml" />
     </modules>
   </component>

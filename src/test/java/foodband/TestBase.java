@@ -2,9 +2,12 @@ package foodband;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -26,6 +29,9 @@ public class TestBase {
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.get("http://93.158.194.208:6005/login");
         login("test", "test");
+        wd.findElement(By.id("selectKitchen")).click();
+        new Select(wd.findElement(By.id("selectKitchen"))).selectByVisibleText("Новокузнецкий");
+        wd.findElement(By.xpath(".//*[@class=\"btn btn-lg btn-default btn-block\"]")).click();
     }
 
     private void login(String username, String password) {
