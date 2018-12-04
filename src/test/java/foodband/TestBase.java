@@ -42,7 +42,7 @@ public class TestBase {
         wd.findElement(By.id("inputPassword")).click();
         wd.findElement(By.id("inputPassword")).clear();
         wd.findElement(By.id("inputPassword")).sendKeys(password);
-        wd.findElement(By.xpath(".//*[@class=\"btn btn-lg btn-default btn-block\"]")).click();
+        wd.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/form/button")).click();
     }
 
     protected void outSesion() {
@@ -59,8 +59,37 @@ public class TestBase {
         wd.findElement(By.id("ord_num")).sendKeys(parametrOrderSearch.getOrderNumber());
     }
 
-    protected void gotoOrdersSearch() {
-        wd.findElement(By.linkText("Поиск заказов")).click();
+    protected void gotoNewOrder() {
+
+//        wd.findElement(By.xpath(".//*[@class=\"navbar-brand nav-button\"]")).click();
+        wd.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div/div/div[1]/div/div/div[1]/a")).click();
+//        wd.findElement(By.cssSelector("a.nav-button")).click();
+    }
+
+    protected void selectWOK() {
+
+        wd.findElement(By.xpath(".//*[@class=\"item-header ng-binding\"]")).click();
+    }
+
+    protected void choiceUdonWithBeef_normal() {
+
+        wd.findElement(By.cssSelector("div.panel-warning:nth-child(1) > div:nth-child(2) > button:nth-child(1)")).click();
+    }
+
+    protected void selectDrinks_NonAlcoholic() {
+
+//        wd.findElement(By.xpath(".//*[@class=\"item-header ng-binding text-selected\"]")).click();
+        wd.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div/div/div/ui-view/div[1]/div[1]/div/div/div/ng-include/div/div/div/div[7]/div[2]/div[1]/div[1]/a")).click();
+    }
+
+    protected void choiceFruitJuice() {
+
+        wd.findElement(By.cssSelector("div.col-md-3:nth-child(30) > div:nth-child(2) > button:nth-child(1)")).click();
+    }
+
+    protected void addItemFood() {
+
+        wd.findElement(By.cssSelector(".tbody > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > button:nth-child(3)")).click();
     }
 
     @AfterMethod
