@@ -32,6 +32,7 @@ public class TestBase {
         wd.findElement(By.id("selectKitchen")).click();
         new Select(wd.findElement(By.id("selectKitchen"))).selectByVisibleText("Новокузнецкий");
         wd.findElement(By.xpath(".//*[@class=\"btn btn-lg btn-default btn-block\"]")).click();
+        wd.get("http://93.158.194.208:6005/operator/all");
     }
 
     private void login(String username, String password) {
@@ -46,8 +47,8 @@ public class TestBase {
     }
 
 
-    protected void initOrdersSearch() {
-        wd.findElement(By.xpath("//div[@class='text-container']/form/input[8]")).click();
+    protected void gotoHomePage() {
+        wd.get("http://93.158.194.208:6005/operator/all");
     }
 
 

@@ -12,6 +12,7 @@ public class AddFoodOrders extends TestBase {
     @Test
     public void testAddFoodOrders() {
 
+        gotoHomePage();
         gotoNewOrder();
         selectWOK();
         choiceUdonWithBeef_normal();
@@ -41,7 +42,7 @@ public class AddFoodOrders extends TestBase {
 //        *** К оплате: 825,00
         try {
 
-            Thread.sleep(5000);     //1000-задержка  на 1000 миллисекунду = 1 секунда
+            Thread.sleep(2000);     //1000-задержка  на 1000 миллисекунду = 1 секунда
 
         } catch (InterruptedException e) {
             System.err.println(e.getMessage());
