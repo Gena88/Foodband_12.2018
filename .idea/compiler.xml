@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="Foodband_12.2018_main" target="1.9" />
-      <module name="Foodband_12.2018_test" target="1.9" />
+      <module name="Foodband_12.2018_main" target="1.10" />
+      <module name="Foodband_12.2018_test" target="1.10" />
       <module name="foodband_main" target="1.9" />
       <module name="foodband_test" target="1.9" />
       <module name="web-pegas-test_main" target="1.9" />
