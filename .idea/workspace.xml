@@ -662,7 +662,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543936843873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544002401617" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -785,15 +785,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddFoodOrders - 2018.12.04 at 18h 04m 47s.xml">
-      <configuration name="AddFoodOrders" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.04 at 18h 05m 09s.xml">
-      <configuration name="AddFoodOrders" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddFoodOrders - 2018.12.04 at 18h 05m 32s.xml">
-      <configuration name="AddFoodOrders" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddFoodOrders - 2018.12.04 at 18h 10m 01s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
@@ -815,12 +806,21 @@
     <history-entry file="AddFoodOrders - 2018.12.04 at 18h 18m 42s.xml">
       <configuration name="AddFoodOrders" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddFoodOrders - 2018.12.04 at 18h 20m 12s.xml">
+      <configuration name="AddFoodOrders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddFoodOrders - 2018.12.04 at 18h 20m 37s.xml">
+      <configuration name="AddFoodOrders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddFoodOrders - 2018.12.04 at 18h 21m 01s.xml">
+      <configuration name="AddFoodOrders" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -829,7 +829,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32618025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32618025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
